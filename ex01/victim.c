@@ -7,6 +7,14 @@
 
 	check if run execve in child process
 	make redirection output and send args
+
+	$ cat -e out
+	fd: 3$
+	ppid: 45030$
+	argv[0]: ./victim.elf$
+	argv[1]: arg1$
+	argv[2]: arg2$
+	argv[3]: arg3$
 */
 
 int main(int argc, char **argv)
